@@ -9,7 +9,7 @@
 }
 
 .header {
-    background-color: #222222;
+    background-color: #9182ff;
     color: #f2f2f2;
 }
 
@@ -19,6 +19,7 @@
     justify-content: space-around;
     margin-right: 12px;
     margin-left: 12px;
+    padding: 1em;
 }
 
 .headerTitleContainer {
