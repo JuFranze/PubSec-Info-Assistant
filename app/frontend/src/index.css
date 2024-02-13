@@ -30,4 +30,5 @@ body > div#root > div{
 
 #root {
     height: 100%;
+    overflow: hidden;
 }
