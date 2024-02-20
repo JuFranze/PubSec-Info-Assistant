@@ -7,6 +7,7 @@ import openai from "../../assets/openai.svg";
 import { WarningBanner } from "../../components/WarningBanner/WarningBanner";
 import styles from "./Layout.module.css";
 import { Title } from "../../components/Title/Title";
+import logo from "../../assets/Logo-caha.jpg"
 
 const Layout = () => {
     return (
@@ -15,7 +16,7 @@ const Layout = () => {
                 <WarningBanner />
                 <div className={styles.headerContainer}>
                     <div className={styles.headerTitleContainer}>
-                        <img src={openai} alt="Azure OpenAI" className={styles.headerLogo} />
+                        <img src={logo} alt="Logo" className={styles.headerLogo} />
                         <h3 className={styles.headerTitle}><Title/></h3>
                     </div>
                     <nav>
